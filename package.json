@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --config nodemon.json src/index.ts",
-    "dev:debug": "npm run dev -- --inspect-brk src/index.ts"
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
